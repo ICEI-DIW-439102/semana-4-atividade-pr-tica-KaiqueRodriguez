@@ -1,3 +1,190 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(33, 33, 37);
+    margin: 0px;
+    padding-top: 0px;
 }
+
+
+
+.Cabecalho {
+    background-color: black;
+    color: white;
+     padding:30px 0;
+     margin: 0;
+     font-family: "Exo 2", sans-serif;
+     text-align: center;
+}
+     
+.Cabecalho h1{
+    margin: 0px;
+}
+
+.Menu li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    border-right: 4px solid white;
+    font-size: 40px; 
+    padding: 0 12px;
+}
+
+.Menu:last-child {
+    border-right: none;
+}
+
+h2 {
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Separação (Lista dos Preferidos) */
+
+
+#Preferidos {
+    color: rgb(255, 225, 2);
+    font-family: "Exo 2", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 40px;
+
+}
+
+.lista-jogos-pref {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.card-favorito img.icone{
+    width: 20px;
+    height: 20px;
+}
+
+
+.lista-jogos-pref li {
+    background-color: rgb(255, 255, 0);
+    padding: 15px;
+    border: 5px solid;
+    border-radius: 15px;
+    border-color:rgb(173, 173, 9);
+    width: 170px;
+    text-align: center;   
+
+}
+.capa{
+   width: 150px;
+   height: 190px;
+   border-radius: 7px;
+}
+
+
+.card-favorito p {
+   font-family: "Exo 2", sans-serif;
+   font-size: 25px; 
+   margin: 5px 0;  
+   display: inline-block;
+   font-weight: 600;
+}
+
+
+/* Separação (Lista dos Jogados Recentemente) */
+
+
+#recentemente{
+    color: rgb(132, 161, 239);
+    font-family: "Exo 2", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+.lista-rec{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.card-normal img.icone{
+    width: 20px;
+    height: 20px;
+}
+
+.lista-rec li {
+    background-color: rgb(3, 7, 132);
+    padding: 15px;
+    border: 5px solid;
+    border-radius: 15px;
+    border-color:rgb(19, 21, 66);
+    width: 170px;
+    text-align: center;   
+}
+
+.card-normal p {
+   font-family: "Exo 2", sans-serif;
+   font-size: 25px; 
+   margin: 5px 0;  
+   display: inline-block;
+   color: rgb(251, 251, 251);
+   font-weight: 25px;   
+}
+
+
+/* Separação (footer) */
+
+
+.Conquistas{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+#top{
+color: rgb(220, 10, 10);
+    font-family: "Exo 2", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+
+.Titulo{
+    font-weight: bold;
+}
+.Conquistas li{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-family: "Exo 2", sans-serif;
+    background-color: rgb(247, 44, 25);
+    padding: 10px;
+    border: 7px solid;
+    border-radius: 15px;
+    border-color:rgb(173, 9, 9);
+    width: 220px;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+
+/* Separação (footer) */
+
+
+.final{
+    background-color: black;
+    font-family: "Exo 2", sans-serif; 
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.oculta{
+    display: none;
+}
+
+
